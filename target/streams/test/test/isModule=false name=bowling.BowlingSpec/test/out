@@ -1,0 +1,13 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mBowlingSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Set[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when empty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should have size 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should produce NoSuchElementException when head is invoked[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Frame[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when knock 0 pins[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  - should have a score of 0 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    8 did not equal 0 (BowlingSpec.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when strike every roll[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should have a score of 30[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when knock 1 pins at each roll[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should have a score of 2[0m[0m

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/joris.granel/Desktop/kata_bowling_scala/src/main/scala/bowling/Roll.scala:6:28: scala.util.Random.type does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    val r : Random = Random()[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
