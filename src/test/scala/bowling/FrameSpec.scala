@@ -2,7 +2,7 @@ package bowling
 
 import org.scalatest.{FunSpec, Matchers}
 
-class BowlingSpec extends FunSpec with Matchers {
+class FrameSpec extends FunSpec with Matchers {
     describe("A Set") {
         describe("when empty") {
         it("should have size 0") {
@@ -19,23 +19,22 @@ class BowlingSpec extends FunSpec with Matchers {
 
     
     describe("A Frame"){
-        describe("when knock 0 pins"){
+        describe("when init"){
         it("should have a score of 0"){
             val frame = Frame(Roll())
-            val nFrame = frame.launchRoll()
-            assert(nFrame.score == 0)
+            assert(frame.score == 0)
+        }
+        it("should have 0 nbRoll"){
+            val frame = Frame(Roll())
+            assert(frame.nbRoll == 0)
         }
         }
 
-        describe("when strike every roll"){
-        it("should have a score of 30"){
-
-        }
-        }
-
-        describe("when knock 1 pins at each roll"){
-        it("should have a score of 2"){
-
+        describe("when lauch"){
+        it("should have a number of roll > 0"){
+             val frame = Frame(Roll())
+             val nFrame = frame.launchRoll()
+             assert(frame.nbRoll > 0)
         }
         }
     }
